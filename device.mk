@@ -35,6 +35,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    libudfpshandler
+
 # Nfc
 PRODUCT_PACKAGES += LmiNfc
 
