@@ -353,11 +353,11 @@ vendor/firmware/lmi_wide_ois_ST.coeff
 vendor/firmware/lmi_wide_ois_ST.prog
 
 # Camera (Megvii)
-vendor/etc/camera/megviifacepp_0_5_2_model
-vendor/lib/libmegface.so
-vendor/lib/libMegviiFacepp-0.5.2.so
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
+vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
+vendor/lib/libMegviiFacepp-0.5.2.so:vendor/lib/libFaceDetectpp-0.5.2.so
+vendor/lib/libmegface.so:vendor/lib/libfacedet.so
+vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
+vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
 
 # Camera motor
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
