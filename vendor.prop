@@ -27,3 +27,6 @@ vendor.audio_hal.period_multiplier=2
 
 # Audio hardware
 ro.hardware.audio.primary=lmi
+
+# TouchFeature
+ro.vendor.touchfeature.type=2
