@@ -13,6 +13,7 @@ static const variant_info_t lmi_global_info = {
     .hwc_value = "",
     .sku_value = "std",
 
+    .name = "lmi_global",
     .brand = "POCO",
     .device = "lmi",
     .marketname = "",
@@ -26,6 +27,7 @@ static const variant_info_t lmipro_info = {
     .hwc_value = "",
     .sku_value = "pro",
 
+    .name = "lmipro",
     .brand = "Redmi",
     .device = "lmipro",
     .marketname = "",
@@ -39,6 +41,7 @@ static const variant_info_t lmi_info = {
     .hwc_value = "",
     .sku_value = "",
 
+    .name = "lmi",
     .brand = "Redmi",
     .device = "lmi",
     .marketname = "",
