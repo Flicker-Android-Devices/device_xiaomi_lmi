@@ -17,7 +17,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lmi
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lmi
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/lmi.config
+TARGET_KERNEL_CONFIG := lmi_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := lmi
