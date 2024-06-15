@@ -36,11 +36,13 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
 # Nfc
-PRODUCT_PACKAGES += LmiNfc
+PRODUCT_PACKAGES += NfcTargetOverlay
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    SystemUITargetOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
