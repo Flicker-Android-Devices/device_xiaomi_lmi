@@ -497,6 +497,9 @@ vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
+# Thermal
+vendor/bin/mi_thermald
+
 # Thermal engine
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
