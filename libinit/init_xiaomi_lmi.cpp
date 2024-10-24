@@ -22,6 +22,7 @@ static const variant_info_t lmi_global_info = {
     .cert = "POCO F2 Pro",
     .build_fingerprint = "POCO/lmi_global/lmi:12/RKQ1.211001.001/V14.0.1.0.SJKMIXM:user/release-keys",
     .hwsku = "lmi",
+    .flavor = "lmi_global-user",
     .nfc = true,
 };
 
@@ -38,6 +39,7 @@ static const variant_info_t lmipro_info = {
     .cert = "Redmi K30 Pro Zoom Edition",
     .build_fingerprint = "Redmi/lmipro/lmipro:12/RKQ1.211001.001/V14.0.1.0.SJKMIXM:user/release-keys",
     .hwsku = "lmipro",
+    .flavor = "lmipro-user",
     .nfc = true,
 };
 
@@ -54,6 +56,7 @@ static const variant_info_t lmi_info = {
     .cert = "Redmi K30 Pro",
     .build_fingerprint = "Redmi/lmi/lmi:12/RKQ1.211001.001/V14.0.1.0.SJKMIXM:user/release-keys",
     .hwsku = "lmi",
+    .flavor = "lmi-user",
     .nfc = true,
 };
 
