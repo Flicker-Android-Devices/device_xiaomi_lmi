@@ -352,6 +352,13 @@ vendor/firmware/lmi_tele_rohm_ois.prog
 vendor/firmware/lmi_wide_ois_ST.coeff
 vendor/firmware/lmi_wide_ois_ST.prog
 
+# Camera (Megvii)
+vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/lib/libmegface.so
+vendor/lib/libMegviiFacepp-0.5.2.so
+vendor/lib64/libmegface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
+
 # Camera motor
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 vendor/etc/init/init.lmi.rc
