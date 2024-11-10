@@ -21,10 +21,6 @@ function blob_fixup() {
 LEGACY_MIFARE_READER=1
 EOF
             ;;
-        vendor/lib/hw/audio.primary.lmi.so)
-            [ "$2" = "" ] && return 0
-            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lmi\.so\x00\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
-            ;;
         vendor/lib*/hw/camera.qcom.so | \
         vendor/lib*/libFaceDetectpp-0.5.2.so | \
         vendor/lib*/libfacedet.so)
